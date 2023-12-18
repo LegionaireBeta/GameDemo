@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="scene" prefHeight="491.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamedemo.Controller">
+   <children>
+      <Rectangle fx:id="player" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="14.0" layoutY="416.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle fx:id="platform1" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="79.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform2" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="79.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform3" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="79.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform4" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="79.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform5" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="386.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform6" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="386.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform7" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="386.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="platform8" arcHeight="5.0" arcWidth="5.0" fill="#ff3e1f" height="40.0" layoutX="386.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Circle fx:id="coin1" fill="#ecff1f" layoutX="117.0" layoutY="310.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin2" fill="#ecff1f" layoutX="238.0" layoutY="310.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin3" fill="#ecff1f" layoutX="478.0" layoutY="318.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin4" fill="#ecff1f" layoutX="470.0" layoutY="201.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin5" fill="#ecff1f" layoutX="340.0" layoutY="209.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin6" fill="#ecff1f" layoutX="179.0" layoutY="97.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin7" fill="#ecff1f" layoutX="486.0" layoutY="97.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin8" fill="#ecff1f" layoutX="332.0" layoutY="97.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin9" fill="#ecff1f" layoutX="179.0" layoutY="201.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="coin10" fill="#ecff1f" layoutX="324.0" layoutY="434.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
